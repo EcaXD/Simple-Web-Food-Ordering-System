@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(Gambar/Background.jpg);
+    background-size: cover;
+}
+
+header {
+    background: linear-gradient(to right, #0099ff, #0f0f0f);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+main {
+    padding: 20px;
+}
+
+table {
+    margin: 0 auto; 
+}
+
+.makanans,
+.minumans {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.makanan,
+.minuman {
+    text-align: center;
+    margin-bottom: 20px;
+    margin: 0 auto; 
+    padding: 10px;
+}
+
+.makanan img {
+    width: 300px;
+    height: 225px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.minuman img {
+    width: 300px;
+    height: 225px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 20px;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="tel"],
+form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form fieldset {
+    margin-bottom: 20px;
+}
+
+form fieldset legend {
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+}
