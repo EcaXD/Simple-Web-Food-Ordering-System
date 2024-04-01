@@ -24,7 +24,7 @@ Warga Jowo's Restaurant is a web application designed to showcase the diverse fl
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/EcaXD/foodOrder.git`
+1. Clone the repository: `git clone https://github.com/EcaXD/Simple-Web-Food-Ordering-System.git`
 2. Navigate to the project directory: `cd foodOrder`
 3. Open `menu.html` in your web browser.
 
